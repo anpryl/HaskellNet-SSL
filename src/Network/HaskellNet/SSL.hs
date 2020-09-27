@@ -7,7 +7,7 @@ module Network.HaskellNet.SSL
 #if MIN_VERSION_network(3,0,0)
 import Network.Socket (PortNumber)
 #else
-import Network.Socket.Internal (PortNumber)
+import Network.Socket.Types (PortNumber)
 #endif
 
 data Settings = Settings
